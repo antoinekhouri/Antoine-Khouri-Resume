@@ -82,6 +82,8 @@ footer {
 .contact-info a {
   padding: 10px;
   display: inline-block;
+  color: #DC143C;
+  text-decoration: none;
 }
 
 
@@ -125,7 +127,7 @@ h3 ~ p {
 /* Education
 -------------------------*/
 .education {
-  background: #8D99AE;
+  background: #BC8F8F;
 }
 p + h3 {
   margin-top: 30px;
