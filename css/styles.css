@@ -69,7 +69,7 @@ header {
   padding-top: 50px;
 }
 header h1, header h2 {
-  color: #8B0000;
+  color: #FFFFFF;
   margin: 0;
 }
 .profile-img {
@@ -108,6 +108,7 @@ nav a {
 	background: #E6E6FA;
 }
 
+
 /* Work Experience
 -------------------------*/
 .work {
@@ -139,4 +140,10 @@ p + h3 {
 
 #job-dates{
 	font-size: 75%;
+}
+
+#download{
+	font-size: 150%;
+	color:#FF0000;
+	text-decoration: none;
 }
