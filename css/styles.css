@@ -144,12 +144,13 @@ p + h3 {
 
 #download{
 	font-size: 150%;
-	color:#FF0000;
+	color: white !important;
 	text-decoration: none;
 }
 
 #downloadButton{
 
   background: #000000;
+
 
 }
