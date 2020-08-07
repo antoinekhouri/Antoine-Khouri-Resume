@@ -38,20 +38,29 @@ a {
 a:hover {
   text-decoration: none;
 }
+@media screen and (max-width: 600px){
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }    
+}
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
   padding: 60px 50px;
   overflow: hidden;
+  flex: 1 1 auto;
 }
 .col-narrow {
   width: 30%;
   float: left;
+  flex: 1 1 auto;
 }
 .col-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
+  flex: 1 1 auto;
 }
 .uppercase {
   text-transform: uppercase;
@@ -86,11 +95,11 @@ footer {
   text-decoration: none;
 }
 
-@media screen and (max-width: 950px){
+/*@media screen and (max-width: 950px){
   .flex-container{
     display: flex;
   }
-}
+}*/
 /* Navigation
 -------------------------*/
 nav {
@@ -109,8 +118,7 @@ nav a {
 }
 
 .skills{
-	background: #E6E6FA;
-
+  background: #E6E6FA;
 }
 
 .wrapper {
@@ -148,17 +156,17 @@ p + h3 {
 }
 
 #job-address{
-	font-size: 75%;
+  font-size: 75%;
 }
 
 #job-dates{
-	font-size: 75%;
+  font-size: 75%;
 }
 
 #download{
-	font-size: 150%;
-	color: white !important;
-	text-decoration: none;
+  font-size: 150%;
+  color: white !important;
+  text-decoration: none;
 }
 
 #downloadButton{
