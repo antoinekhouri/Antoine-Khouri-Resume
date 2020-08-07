@@ -39,23 +39,31 @@ a:hover {
   text-decoration: none;
 }
 @media screen and (max-width: 600px){
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-    }    
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-narrow {
+   width: 40%;
+   float: left;
+   flex: 1;
+ }    
+}
+@media screen and (min-width: 601px){
+  .col-narrow {
+    width: 30%;
+    float: left;
+    flex: 1;
+  }
 }
 .content-wrap {
-  max-width: 950px;
+  max-width:  ;
   margin: 0 auto;
   padding: 60px 50px;
   overflow: hidden;
   flex: 1;
 }
-.col-narrow {
-  width: 25%;
-  float: left;
-  flex: 1;
-}
+
 .col-wide {
   width: 70%;
   float: left;
@@ -99,7 +107,7 @@ footer {
   .flex-container{
     display: flex;
   }
-}*/
+  }*/
 /* Navigation
 -------------------------*/
 nav {
