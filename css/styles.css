@@ -86,7 +86,11 @@ footer {
   text-decoration: none;
 }
 
-
+@media screen and (max-width: 950px){
+  .flex-container{
+    display: flex;
+  }
+}
 /* Navigation
 -------------------------*/
 nav {
@@ -106,6 +110,12 @@ nav a {
 
 .skills{
 	background: #E6E6FA;
+
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 75rem;
 }
 
 .projects{
