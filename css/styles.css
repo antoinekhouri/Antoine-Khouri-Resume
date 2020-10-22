@@ -79,28 +79,28 @@ a:hover{
   width: 25%;
 }
 
-.mcgill-img {
+.cimf-img {
   float: left;
   height: auto;
   margin-right: 30px;
   width: 25%;
 }
 
-.cimf-img {
+.mcgill-img {
   float: right;
   height: auto;
   margin-left: 30px;
   width: 25%;
 }
 
-.sapient-img {
+.sensequake-img {
   float: left;
   height: auto;
   margin-right: 30px;
   width: 25%;
 }
 
-.sensequake-img {
+.sapient-img {
   float: right;
   height: auto;
   margin-left: 30px;
