@@ -1,249 +1,104 @@
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Antoine Khouri | Resume</title>
-		<link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
-	<body>
-		<div class="flex-container">
-			<!-- //Intro -->
-			<header id = "about">
-				<nav class="display">
-					<a href="#about">About</a>
-					<a href="#skills">Technical Skills</a>
-					<a href="#work">Work Experience</a>
-					<a href="#projects">Projects</a>
-					<a href="#education">Education</a>
-					<a href="#contact">Contact</a>
-				</nav>
-				<div class="content-wrap">
-					<img class="profile-img col-narrow" src="Resume.png" alt="Antoine Khouri">
-					<div class="col-wide">
-						<h1>Antoine Khouri</h1>
-						<h2>Software Developer</h2>
-						<p>As a developer, I currently specialize in backend development, with expertise in C, java & python, with some front end development experience.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-							<p>Fluent in English, French & Arabic.</p>
-						</div>
-					</div>
-					<button id ="downloadButton"><a id="download" href="Antoine_Khouri_Resume.pdf" target=_blank download>Download PDF</a></button>
+<head>
+  <meta charset="utf-8">
+  <title>Antoine Khouri</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="resources/favicon.ico">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Parisienne&display=swap"
+    rel="stylesheet">
+</head>
 
-				</header>
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="resources/images/cloud.png" alt="cloud-img">
+    <h1>I'm Antoine,</h1>
+    <h2 id="subheading">I'm a developer.<h2>
+        <img class="bottom-cloud" src="resources/images/cloud.png" alt="cloud-img">
+        <img class="mountain" src="resources/images/mountain.png" alt="mountain-img">
+  </div>
 
-				<main>
-					<!-- Technical Skills-->
-
-					<section id="skills" class="skills">
-						<div class="content-wrap">
-							<h2>Technical Skills</h2>
-							<div class="col-narrow ">
-								<h3>Programming Languages</h3>
-							</div>
-							<div class="col-wide job-description">
-								<ul>
-									<li>Java</li>
-									<li>C</li>
-									<li>Python</li>
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>Swift</li>
-								</ul>
-							</div>
-							<div class="col-narrow">
-								<h3>IDEs</h3>
-							</div>
-							<div class="col-wide job-description">
-								<ul>
-									<li>Visual Studio</li>
-									<li>Xcode</li>
-									<li>Eclipse</li>
-									<li>Intellij</li>
-									<li>Android Studio</li>
-									<li>Clion</li>
-									<li>Pycharm</li>
-								</ul>
-							</div>
-							<div class="col-narrow">
-								<h3>Other</h3>
-							</div>
-							<div class="col-wide job-description">
-								<ul>
-									<li>ElasticSearch</li>
-									<li>Kibana</li>
-									<li>Lejos EV3</li>
-									<li>Comfortable in Unix Environment</li>
-									<li>Junit</li>
-									<li>STM32</li>
-								</ul>
-							</div>
-						</section>
-						<section id="work" class="work">
-							<!-- // Work Experience -->
-							<div class="content-wrap">
-								<h2>Work Experience</h2>
-
-								<!-- Job 1 Details -->
-								<div class="col-narrow">
-									<h3>Backend Developer - Embedded Systems</h3>
-									<p class="uppercase">Sensequake Inc</p>
-									<p id = "job-address">1250 Guy St, Montreal, QC, suite 600</p>
-									<p id ="job-dates">January 2019-May 2019</p>
-								</div>
-
-								<div class="col-wide job-description">
-									<p>Worked on the company's sensor backend code as well as the IoT device ("gateway") that collects all the data from the sensors.</p>
-									<p>Key contributions:</p>
-									<ul>
-										<li>Wireless Project</li>
-										<ul>
-											<li>Implemented in C</li>
-											<li>Implemented "Self-Test" functionality</li>
-											<li>Implemented "Clock Calibration" functionality</li>
-											<li>Implemented data transfer to Android App functionality</li>
-											<li>Implemented binary conversion & compression functionality for data transfer to android app</li>
-											<li>Optimized communication between Sensor manager & motes</li>
-											<li>Cleaned up & commented pre-existing codebase</li>
-										</ul>
-										<br>
-										<li>Wired "Modbus" Project</li>
-										<ul>
-											<li>Implemented in C</li>
-											<li>Improved communication timing to gateway</li>
-											<li>Implemented alarm detection & notification to gateway</li>
-											<li>Improved pre-existing sensor state machine</li>
-											<li>Implemented watchdog reset functionality</li>
-										</ul>
-										<br>
-										<li>Gateway</li>
-										<ul>
-											<li>Implemented in Python</li>
-											<li>Implemented automated data upload from sensor after measurement</li>
-											<li>Implemented automatic "stop everything" (save/upload/measurement) as alarm is detected in order to give priority to alarm data</li>
-										</ul>
-									</ul>
-								</div>
-
-								<!-- job 2--> 
-								<div class="col-narrow">
-									<h3>Junior Associate Software Development Intern</h3>
-									<p class="uppercase">Publicis Sapient</p>
-									<p id = "job-address">134 Peter Street, Toronto, ON</p>
-									<p id ="job-dates">June 2019-August 2019</p>
-								</div>
-								<div class="col-wide job-description">
-									<p>Worked on the a client account & on an industry project.</p>
-									<p>Key Contributions:</p>
-									<ul>
-										<li>Account Work</li>
-										<ul>
-											<li>Client was a fortune 500 company</li>
-											<li>Used SQL and Timelion to manipulate data form queries found on ElasticSearch, coming from sources such as Jira, Jenkins, sonarqube</li>
-											<li>Collected & displayed that data on Kibana Canvases using CSS as well</li>
-											<li>Created multiple KPIs displayed internally on client's office's screens</li>
-											<li>Optimized data collection, manipulation and display processes using an array of technologies (python, Java, jenkins, Kibana, elasticsearch)</li>
-										</ul>
-										<br>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<!-- Projects -->
-						<section id ="projects" class="projects">
-							<div class="content-wrap">
-								<h2>Projects</h2>
-								<!-- Project 1-->
-								<div class="col-narrow">
-									<h3>Capture The Flag</h3>
-									<p class="uppercase">McGill University</p>
-									<p id = "job-address">Montreal, QC</p>
-								</div>
-								<div class="col-wide job-description">
-									<ul>
-										<li>In a team of 6, designed robot hardware & software using Lejos EV3 & Java</li>
-										<li>Iterated hardware & software design based on test data & updated final requirements</li>
-										<li>Finished 5th in the final capture the flag competition between different teams’ robots</li>
-									</ul>
-								</div>
-								<!-- Project 2-->
-								<div class="col-narrow">
-									<h3>Publicis Sapient Industry Challenge</h3>
-									<p class="uppercase">Publicis Sapient</p>
-									<p id = "job-address">Toronto, ON</p>
-								</div>
-								<div class="col-wide job-description">
-									<ul>
-										<li>Field was Consumer Products</li>
-										<li>Used React to build the front-end, and python for the back-end</li>
-										<li>Website used to match industry specialists looking to leverage social media in order to fuel their marketing campaign with social media promoters</li>
-									</ul>
-								</div>
-								<!-- Porject 3 -->
-								<div class="col-narrow">
-									<h3>Machine Learning</h3>
-									<p class="uppercase">McGill University</p>
-									<p id = "job-address">Montreal, QC</p>
-								</div>
-								<div class="col-wide job-description">
-									<ul>
-										<li>In a team of 3, implemented a naïve Bayes machine learning model</li>
-										<li>Implemented to support Gaussian, Bernoulli and multinomial likelihood</li>
-										<li>Tested on four datasets: adult salaries, breast cancer, hepatitis and ionosphere color</li>
-										<li>Accuracy rates:</li>
-										<ul>
-											<li>Adult Salaries: 83%</li>
-											<li>Breast cancer: 83%</li>
-											<li>Hepatitis: 87%</li>
-											<li>Ionosphere color: 80%</li>
-										</ul>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<!-- //Education -->
-						<section id="education" class="education">
-							<div class="content-wrap">
-								<h2>Education</h2>
-
-								<!--School 1 details -->
-								<h3>College International Marie De France</h3>
-								<p>French Baccalaureate In Science, with Mention "Bien"</p>
-								<p id="job-address">4635 Queen Mary Road, Montreal QC</p>
-								<p id="job-dates">September 2010-June 2015</p>
-
-								<!--School 2 deatails -->
-								<h3>McGill University</h3>
-								<p>Bachelor in Engineering, Software engineering</p>
-								<p id="job-address">845 Sherbrooke Street West, Montreal, QC</p>
-								<p id="job-dates">September 2015-May 2020</p>
-							</div>
-						</section>
-					</div>      
-				</main>
-				<!-- // Footer & contact info -->
-				<footer id="contact">
-					<div class="content-wrap">
-						<h2>Contact Me!</h2>
-
-						<!-- Links-->
-						<div class="contact-info">
-							<a href="mailto:antoine.khouri@mail.mcgill.ca">Email</a>
-							<a href="https://www.instagram.com/antoinekhourii/" target="_blank">Instagram</a>
-							<a href="https://www.linkedin.com/in/antoine-khouri-19b858188/" target ="_blank">LinkedIn</a>
-							<a href="https://www.facebook.com/tonikhouri97" target="_blank">Facebook</a>
-							<a href="https://github.com/antoinekhouri" target="_blank">Github</a>
-						</div>
-						<p>Copyright 2019 by Antoine Khouri</p>
-					</div>
-				</footer>
-			</body>
-			</html>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="resources/images/pfp.png" height="auto" width="200" alt="profile-img">
+      <h2>Hello,</h2>
+      <p>I am a Fullstack Developer, with a larger focus on Backend and Database development. I pride myself on continuously learning and improving & diversifying my skillset.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="backend-img" src="resources/images/backend.png" alt="backend-img">
+        <h3>Backend Development</h3>
+        <p>I have worked on many different Backend projects in many different languages, including
+          Java, Python and C. I have a wealth of experience operating in a linux enviornment,
+          as well as a solid automation background.</p>
+      </div>
+      <div class="skill-row">
+        <img class="database-img" src="resources/images/database.png" alt="database-img">
+        <h3>Database Development</h3>
+        <p>I have developed a solid background in Database Development, having developed applications
+          that rely on and leverage both Relational and Non-Relational Databases.</p>
+      </div>
+      <div class="skill-row">
+        <img class="frontend-img" src="resources/images/frontend.png" alt="frontend-img">
+        <h3>Frontend Development</h3>
+        <p>My Frontend Development skillset is a work in progress. It currently includes solid foundations
+        in Web Development and iOS Development.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="education">
+      <h2>My Education</h2>
+      <div class="education-row">
+        <img class="mcgill-img" src="resources/images/mcgill.png" alt="mcgill-img">
+        <h3>McGill University</h3>
+        <p>I did my undergraduate studies at McGill university in Montreal, Quebec. I graduated in 2020 and obtained a Bachelor's degree in Software Engineering.</p>
+      </div>
+      <div class="education-row">
+        <img class="cimf-img" src="resources/images/cimf.png" alt="cimf-img">
+        <h3>College International Marie de France</h3>
+        <p>I attended middle and high school at College International Marie de France in Montreal, Quebec. I grauted in 2015 and obtained a French Baccalaureate in Science with a "Mention Bien"</p>
+      </div>
+    </div>
+    <hr>
+    <div class="work">
+      <h2>My Work Experience</h2>
+      <div class="work-row">
+        <img class="sapient-img" src="resources/images/sapient.png" alt="sapient-img">
+        <h3>Publicis Sapient</h3>
+        <p>I have been a Junior Associate Software Developer at Publicis Sapient since October 2020.
+          The onboarding process took place during the Covid-19 pandemic, which introduced many new interesting challenges.</p>
+      </div>
+      <div class="work-row">
+        <img class="sensequake-img" src="resources/images/sensequake.png" alt="sensequake-img">
+        <h3>Sensequake</h3>
+        <p>I spent four months starting in January 2019 interning at Sensequake. Being the only backend Developer
+        at a small startup was a very unique experience. Pushing code that went directly to our testing customers was a unique challenge for a younger me.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <p>If you want to talk code, discuss a project or just tell me why you think the Toronto Raptors are the best team in the NBA,
+        use any of the links below!</p>
+      <a class="btn" href="mailto:toni.khouri1197@hotmail.ca">CONTACT ME</a>
+      <a class="btn" href="Antoine_Khouri_Resume.pdf" target=_blank download>Download PDF</a>
+    </div>
+  </div>
 
 
+  <div class="bottom-container">
 
 
+    <a class="footer-link" href="https://www.linkedin.com/in/antoine-khouri-19b858188/" target="blank_">LinkedIn</a>
+    <a class="footer-link" href="https://www.instagram.com/antoinekhourii/" target="blank_">Instagram</a>
+    <a class="footer-link" href="https://www.github.com/antoinekhouri" target="blank_">Github</a>
+    <p class="copyright">© 2020 Antoine Khouri</p>
+  </div>
 
+</body>
 
+</html>
